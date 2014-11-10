@@ -170,9 +170,7 @@ footer[role="contentinfo"] {
     color: #939393; }
     footer[role="contentinfo"] p.copyright {
       margin-top: 50px;
-      padding-bottom: 25px;
-      font-family: "aktiv-grotesk-std", "Helvetica Neue", Helvetica, Arial, sans-serif;
-      font-weight: 700; }
+      padding-bottom: 25px; }
 
 header[role="banner"] figure,
 header[role="banner"] h1,
@@ -249,4 +247,14 @@ section[role="main"] {
     padding: 0 25px; }
 
   header[role="banner"] .container {
-    margin: 100px auto; } }
+    margin: 100px auto; }
+
+  .row .col {
+    float: none; }
+    .row .col.col-3 {
+      width: 100%;
+      margin: 0;
+        margin-top: 40px !important; }
+
+  footer[role="contentinfo"] {
+    margin-top: 100px; } }

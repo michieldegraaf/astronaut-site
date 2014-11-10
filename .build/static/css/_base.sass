@@ -1,0 +1,38 @@
+// =Base
+// ----------------------------------------------
+
+body
+  +sans-serif
+  font:
+    size: 100%
+  line-height: 160%
+  vertical-align: baseline
+  color: $text-light
+  background: #faf0e9
+  -webkit-font-smoothing: antialiased
+
+a
+  cursor: pointer
+  color: $text-light
+  white-space: nowrap
+  text-decoration: none
+  border-bottom: 1px solid $text-light
+  +transition(all, .15s)
+
+  &:hover
+    border-color: transparent
+
+.center
+  text-align: center
+
+.row
+  overflow: hidden
+
+  .col
+    float: left
+
+    &.col-3
+      width: 26%
+      margin:
+        left: 3%
+        right: 3%

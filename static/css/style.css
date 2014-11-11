@@ -116,10 +116,10 @@ header[role="banner"] {
   header[role="banner"] h1 {
     margin-bottom: 25px;
     color: white;
-    font-size: 1.8125rem;
+    font-size: 1.6875rem;
     line-height: 110%;
     text-transform: uppercase;
-    letter-spacing: 0.15em; }
+    letter-spacing: 0.18em; }
     header[role="banner"] h1 span {
       display: inline-block;
       opacity: 0.5; }
